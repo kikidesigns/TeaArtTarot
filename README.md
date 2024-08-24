@@ -1,5 +1,7 @@
 ## TEAARTTAROT Brand Identity Document
 
+This is a work in progress.
+
 ### **Brand Overview**
 **Brand Name:** TEAARTTAROT  
 **Tagline:** "Mystical Insights, Artistic Visions"  
