@@ -1,0 +1,339 @@
+### **Game Concept Overview**
+
+**Title**: **Temple of Bastet: Guardian's Path**
+
+**Platform**: Web (Three.js)
+
+**Genre**: Mystical Exploration and Narrative Adventure
+
+**Core Themes**: Bastet's teachings, exploration, daily rituals, and protection.
+
+**Objective**: Players explore a sacred temple dedicated to Bastet, where they learn her teachings, complete tasks and puzzles, and interact with NPCs who provide guidance. Through daily rituals, players unlock deeper aspects of the temple, eventually earning cool items.
+
+---
+
+### **Game Design Document (GDD)**
+
+**1. Game Summary**:
+- *Temple of Bastet: Guardian's Path* is an exploration-based adventure game where players journey through a mystical Egyptian temple and garden dedicated to Bastet. The game focuses on Bastet's teachings, integrating tasks, puzzles, and mini-quests that players must complete to progress. Daily rituals serve as a central mechanic, rewarding players with wisdom or blessings from Bastet. The experience is narrative-driven, with NPCs guiding players through their journey.
+
+**2. Key Features**:
+- **Interactive Exploration**: Players freely explore a beautifully rendered temple, filled with hidden chambers, sacred artifacts, and altars dedicated to Bastet. 
+- **Daily Rituals**: Each day, players perform a ritual in the temple's central shrine. Completing the ritual unlocks new areas, reveals NPCs, or grants blessings.
+- **NPC Interaction**: NPCs, such as temple priests or guardian spirits, provide tasks, offer wisdom, and guide the player through the temple. Each NPC is linked to a specific lesson or teaching of Bastet.
+- **Puzzles and Mini-Quests**: The temple is filled with ancient puzzles and quests that challenge the player’s wit and understanding of Bastet’s teachings. These tasks could involve deciphering hieroglyphics, assembling artifacts, or protecting sacred spaces from dark forces.
+- **Showcase of Bastet’s Teachings**: As players progress, they uncover Bastet's key teachings through environmental storytelling, NPC dialogue, and interactive elements that reflect her principles of balance, protection, femininity, joy, and motherhood.
+- **Narrative-Driven Progression**: The game’s story unfolds as players complete tasks and rituals, gradually revealing Bastet’s wisdom and culminating in a final, impactful interaction with the goddess.
+
+**3. Gameplay Mechanics**:
+- **Exploration**: Players explore a non-linear environment, discovering new chambers and secrets tied to Bastet’s teachings.
+- **Task/Quest System**: NPCs assign tasks that must be completed to progress. These range from simple fetch quests to more complex puzzles requiring critical thinking and understanding of Egyptian mythology.
+- **Daily Rituals**: A simple mechanic where players must perform specific actions (e.g., lighting candles, placing offerings) in front of Bastet's altar to unlock daily rewards.
+- **Puzzle Integration**: Puzzles are integrated into the environment and narrative, requiring players to think creatively. Solutions may involve interpreting Bastet's symbols or completing mini-games.
+
+**4. Art and Visual Style**:
+- **Visual Style**: The temple’s design is inspired by luxury modern architecture, with modern mystical elements that align with TEAARTTAROT’s luxury, minimal, and modern brand aesthetic. The environment is moody and ethereal, with soft lighting, intricate carvings, and sacred symbols.
+- **Character Design**: NPCs have a regal, mystical appearance, adorned with Egyptian garb and symbols of Bastet. Their design reflects the wisdom and power of the goddess.
+
+**5. Technical Requirements**:
+- **Three.js**: If building for the web, focus on lightweight 3D environments and basic interaction mechanics to ensure smooth performance.
+- **Unreal Engine**: If building for PC, leverage Unreal’s capabilities for more detailed environments, advanced lighting effects, and complex animations.
+
+**6. MVP Scope**:
+- **Core Mechanics**: Focus on exploration, daily rituals, and a few key puzzles/tasks.
+- **Environment**: One primary temple environment with a few accessible chambers.
+- **NPCs**: Introduce 2-3 NPCs who provide key tasks and guidance.
+- **Narrative**: Establish the core storyline centered on discovering Bastet’s teachings.
+
+**7. Future Expansion**:
+- **Altar Customization**: Future updates could include an altar customization feature, allowing players to personalize their shrine to Bastet.
+- **Additional Puzzles/Quests**: Expand the temple with more chambers, complex puzzles, and deeper narrative content.
+- **Expanded Ritual System**: Introduce more varied rituals and rewards to maintain player engagement over time.
+
+---
+
+This design focuses on delivering a rich, immersive experience that resonates with your TEAARTTAROT brand, emphasizing Bastet’s teachings while providing engaging gameplay mechanics. The MVP scope is designed to be achievable within a week, allowing for future expansions as the project evolves.
+
+
+
+
+
+GAMEPLAY MECHANICS:
+
+### **Gameplay Mechanics Document for *Temple of Bastet: Guardian's Path***
+
+#### **1. Exploration Mechanics**
+- **Environment Navigation**:
+  - **Free Roaming**: Players can move freely within the temple and its surrounding gardens. The movement is smooth, with options to walk or run.
+  - **Interactive Elements**: Objects like ancient scrolls, statues, or inscriptions can be interacted with to gain insights into Bastet's teachings. Some items can be collected for later use in puzzles or rituals.
+  - **Hidden Areas**: Certain chambers or pathways are hidden and require solving puzzles or performing rituals to access, encouraging exploration.
+
+- **Environmental Storytelling**:
+  - **Visual Cues**: Subtle clues like hieroglyphics, murals, and statues provide backstory and hint at the temple's secrets and Bastet’s lessons.
+  - **Ambient Sound**: The sound design includes mystical ambient sounds, distant chants, and echoes that guide the player’s attention to key areas.
+
+#### **2. Task/Quest System**
+- **Task Assignment**:
+  - **NPCs as Task-Givers**: NPCs, such as temple priests or guardian spirits, assign tasks to the player. These tasks are often linked to learning a specific teaching of Bastet.
+  - **Task Variety**: Tasks range from simple fetch quests (e.g., collecting offerings) to more complex challenges like deciphering ancient texts or protecting a sacred area.
+
+- **Quest Structure**:
+  - **Main Quests**: Core narrative-driven tasks that advance the story and unlock new areas or NPCs.
+  - **Side Quests**: Optional tasks that reward players with additional lore, blessings, or items that can aid in rituals or puzzles.
+
+#### **3. Daily Rituals**
+- **Ritual Mechanics**:
+  - **Central Shrine Interaction**: Players perform daily rituals at Bastet’s central shrine, which could include actions like lighting candles, arranging offerings, or reciting prayers.
+  - **Ritual Rewards**: Successfully completing a ritual can unlock new areas, reveal NPCs, or grant blessings like temporary protection, enhanced perception, or guidance towards hidden secrets.
+
+- **Ritual Evolution**:
+  - **Increasing Complexity**: As the game progresses, rituals become more complex, requiring the player to combine items, solve riddles, or perform actions in a specific sequence.
+  - **Narrative Integration**: Each ritual ties into the narrative, reflecting the player's deepening connection to Bastet and understanding of her teachings.
+
+#### **4. Puzzle Integration**
+- **Puzzle Types**:
+  - **Environmental Puzzles**: These puzzles are embedded within the temple environment, such as moving statues into specific positions, aligning symbols, or using light and shadow to reveal hidden passages.
+  - **Symbolic Puzzles**: Involve interpreting Bastet’s symbols or hieroglyphics to unlock doors or gain access to sacred objects.
+  - **Protection Challenges**: The player may need to use wisdom to fend off negative energies or entities attempting to corrupt the temple, representing Bastet's role as a protector.
+
+- **Puzzle Difficulty**:
+  - **Progressive Challenge**: Puzzles start simple but grow more complex as the player advances, requiring deeper understanding of Bastet's teachings.
+  - **Hint System**: NPCs may provide subtle hints, or the environment may give clues through visual or audio cues.
+
+#### **5. NPC Interaction**
+- **Dialogue and Guidance**:
+  - **Conversational Interaction**: Players can engage in dialogue with NPCs, who provide lore, guidance, and tasks. Conversations are rich with information about Bastet’s teachings and the temple’s history.
+  - **Dynamic Responses**: NPCs may react differently based on the player’s progress, actions taken during rituals, or previous interactions.
+
+- **Task/Quest Management**:
+  - **Quest Log**: Players have access to a log that keeps track of active and completed tasks. This log includes reminders of what each NPC has asked for and any relevant hints or lore.
+
+#### **6. Narrative-Driven Progression**
+- **Story Integration**:
+  - **Teachings Unveiled**: As players complete tasks, perform rituals, and solve puzzles, they unlock narrative pieces that reveal Bastet’s teachings, such as protection, balance, femininity, and motherhood.
+  - **Key Milestones**: Certain tasks or puzzles are tied to major narrative milestones, culminating in pivotal interactions with Bastet or significant changes in the temple environment.
+
+- **Final Encounter**:
+  - **Culmination of Efforts**: The narrative and gameplay mechanics culminate in a final encounter or experience where the player fully realizes the teachings of Bastet and must apply what they have learned to succeed.
+
+---
+
+This gameplay mechanics document ensures that each element of *Temple of Bastet: Guardian's Path* is designed to create a cohesive and immersive experience, aligned with your TEAARTTAROT brand and the teachings of Bastet.
+
+
+
+
+
+ART. AND VISUAL STYLE
+### **Art and Visual Style Document for *Temple of Bastet: Guardian's Path***
+
+#### **1. Visual Style Overview**
+- **Aesthetic Direction**:
+  - The overall visual style is a blend of luxury modern architecture and ancient Egyptian mysticism, consistent with the TEAARTTAROT brand’s luxury, minimal, and modern aesthetic. The design aims to evoke a sense of sacredness, mystery, and reverence for Bastet.
+
+- **Color Palette**:
+  - **Primary Colors**: Black, white, and various shades of gray, in line with the TEAARTTAROT brand palette, create a stark, elegant backdrop.
+  - **Accent Colors**: Gold and soft light yellow highlight key elements, such as sacred symbols, Bastet’s statues, and altar decorations, adding a touch of divine warmth and light.
+  - **Ethereal Lighting**: Soft, moody lighting enhances the mystical atmosphere, with dynamic shadows and light beams that subtly guide the player’s exploration.
+
+#### **2. Environment Design**
+- **Temple Architecture**:
+  - **Exterior**: The temple is grand, with a modern interpretation of traditional Egyptian architecture. Clean lines, smooth stone surfaces, and monumental structures emphasize the luxury aspect, while intricate carvings and statues connect to Bastet’s ancient roots.
+  - **Interior Spaces**: The interior consists of spacious halls, intimate chambers, and hidden alcoves. Each space is meticulously detailed with hieroglyphics, sacred symbols, and altar spaces that reflect Bastet's teachings.
+  - **Garden Areas**: The surrounding gardens are lush and serene, filled with sacred flora, gentle water features, and paths leading to hidden sanctuaries. The gardens serve as a peaceful counterbalance to the temple’s imposing architecture.
+
+- **Sacred Objects and Symbols**:
+  - **Altars and Shrines**: Central to the temple’s design, these spaces are dedicated to daily rituals. Altars feature intricate designs, sacred offerings, and glowing symbols of Bastet.
+  - **Hieroglyphics and Murals**: Walls are adorned with ancient Egyptian hieroglyphics and murals that narrate stories of Bastet, her teachings, and the temple’s history.
+  - **Interactive Elements**: Objects like ancient scrolls, statues of Bastet, and ceremonial items are visually distinct and designed to catch the player’s eye, encouraging interaction.
+
+#### **3. Character Design**
+- **NPC Design**:
+  - **Temple Priests and Guardians**: NPCs are adorned in luxurious, flowing robes with accents of gold and light yellow. Their attire includes symbolic jewelry and headdresses that denote their connection to Bastet.
+  - **Guardian Spirits**: Ethereal beings that protect the temple, appearing as semi-transparent figures with a soft glow, embodying the mystical aspect of the game. Their design blends human and feline features, reflecting Bastet's dual nature.
+  - **Facial and Body Design**: NPCs have calm, wise expressions with a regal posture. Their designs incorporate Egyptian motifs, such as stylized eyes, ankh symbols, and cat-like features in some characters.
+
+#### **4. UI/UX Design**
+- **User Interface**:
+  - **Minimalist HUD**: The game features a minimalistic HUD, with essential information like health, task logs, and ritual progress displayed unobtrusively at the edges of the screen.
+  - **Interactive Menus**: Menus and dialogues are sleek, with black, white, and gold accents. The UI design incorporates Egyptian-inspired patterns and fonts, ensuring a cohesive visual experience.
+  - **Iconography**: Icons for items, tasks, and rituals are simple yet symbolic, using stylized depictions of sacred objects like the ankh, eye of Horus, and lotus flower.
+
+- **User Experience**:
+  - **Intuitive Navigation**: The layout of the temple and gardens is designed to encourage exploration while gently guiding the player through Bastet’s teachings. Interactive elements are clearly indicated without breaking immersion.
+  - **Visual Feedback**: Rituals, tasks, and puzzle interactions are accompanied by subtle visual cues, such as glowing symbols, dynamic lighting changes, or gentle particle effects that reinforce the mystical atmosphere.
+
+#### **5. Animation and Effects**
+- **Character Animation**:
+  - **Fluid Movements**: NPCs move gracefully, with deliberate, flowing motions that reflect their spiritual nature. Animations include ritualistic gestures, slow walks, and reverent bows.
+  - **Expressive Faces**: Facial animations convey emotions like wisdom, serenity, and reverence, enhancing the narrative depth during dialogues and interactions.
+
+
+
+
+NARRATIVE DOC
+
+### **Narrative Design Document for *Temple of Bastet: Guardian's Path***
+
+#### **1. Narrative Overview**
+- **Core Storyline**:
+  - *Temple of Bastet: Guardian's Path* is an exploration-based adventure game where players journey through a sacred temple dedicated to Bastet, the ancient Egyptian goddess of protection, motherhood, and joy. Players uncover Bastet’s teachings through exploration, tasks, puzzles, and daily rituals. The narrative is designed to be compact and impactful, fitting within the scope of a one-week development timeframe, while still providing a rich, immersive experience.
+
+- **Themes**:
+  - **Protection and Guardianship**: The temple is a sanctuary, and the player learns to embody Bastet’s protective nature.
+  - **Balance and Harmony**: The player is guided to maintain balance within the temple, reflecting Bastet’s dual aspects.
+  - **Motherhood and Femininity**: The narrative highlights Bastet’s nurturing qualities and the divine feminine’s power.
+  - **Mystical Knowledge and Ritual**: The journey is one of learning and spiritual growth, with daily rituals and teachings revealing the temple’s mysteries.
+
+#### **2. Story Structure**
+- **Prologue**:
+  - The player, drawn by a mysterious call, arrives at the temple. The first NPC, a temple priestess, introduces them to the temple’s purpose and the basic mechanics of exploration and ritual. This brief introduction sets the stage for the player’s journey.
+
+- **Act 1**: 
+  - **Introduction to Bastet’s Teachings**:
+    - The player begins by exploring the temple’s initial chambers, where they are introduced to Bastet’s core principles. Simple tasks involve protecting sacred spaces and learning the significance of harmony. Early NPCs provide guidance and assign tasks that deepen the player’s understanding of the temple.
+
+- **Act 2**: 
+  - **Deepening Understanding**:
+    - As the player progresses, they unlock new areas of the temple, such as a garden that symbolizes growth and life. The narrative focuses on the themes of motherhood and nurturing, with tasks related to these concepts. The player encounters more complex puzzles and quests, guided by NPCs who embody different aspects of Bastet’s teachings.
+
+- **Act 3**: 
+  - **The Final Revelation**:
+    - The player gains access to the temple’s inner sanctum, where they face the most significant challenges and tasks. These require the player to demonstrate their mastery of Bastet’s teachings, culminating in a final ritual that brings them face-to-face with the goddess. This moment is the narrative’s climax, where the player receives Bastet’s blessing.
+
+- **Epilogue**:
+  - The player leaves the inner sanctum transformed, now a guardian of Bastet’s teachings. The temple, once mysterious, has become a place of deep personal meaning. The story concludes, but hints at future challenges and deeper mysteries, leaving room for future expansions.
+
+#### **3. Characters**
+- **The Player (Protagonist)**:
+  - A seeker of wisdom, the player is on a journey of discovery and transformation, learning to embody the teachings of Bastet.
+
+- **Temple Priestess (Mentor)**:
+  - The first NPC the player encounters, the priestess is a wise and calm guide who introduces the player to the temple’s rituals and teachings.
+
+- **Guardian Spirit (Guide)**:
+  - An ethereal figure that appears at key moments, representing Bastet’s protective nature. The guardian spirit guides the player through critical tasks and mini-quests.
+
+- **Bastet (Divine Presence)**:
+  - The goddess herself, whose presence is felt throughout the temple. Bastet is directly encountered only in the final act, embodying wisdom, power, and nurturing.
+
+#### **4. World-Building**
+- **Temple Lore**:
+  - The temple is an ancient sanctuary dedicated to Bastet, filled with symbols and artifacts that tell the story of her deeds and her connection to protection, balance, and motherhood. The player uncovers this lore through environmental storytelling and interactions with NPCs.
+
+- **Environmental Storytelling**:
+  - Each chamber and area in the temple is designed to reflect different aspects of Bastet’s teachings. For example, the garden area represents motherhood and nurturing, with symbols of growth and life, while the inner sanctum embodies wisdom and protection.
+
+- **Narrative Puzzles**:
+  - Puzzles are integrated into the environment and narrative, challenging the player’s understanding of Bastet’s teachings. Solutions often involve interpreting symbols, interacting with sacred objects, or completing mini-games that reflect the game’s core themes.
+
+#### **5. Dialogue and Script**
+- **Tone and Style**:
+  - The dialogue is formal and reverent, reflecting the sacred nature of the temple and its inhabitants. NPCs speak with wisdom and authority, often using metaphor and symbolism to convey Bastet’s teachings.
+
+- **Key Dialogue Samples**:
+  - **Temple Priestess**: “Welcome, seeker of wisdom. This temple is a place of balance, where the fierce and the gentle are one. Here, you will learn the ways of Bastet, if you are willing to listen.”
+  - **Guardian Spirit**: “The path of the guardian is not an easy one. To protect is to understand, to nurture is to defend. Do you have the strength to walk this path?”
+
+#### **6. Narrative Mechanics**
+- **Daily Rituals**:
+  - Each day, the player performs a ritual in the temple’s central shrine, unlocking new areas, revealing NPCs, or gaining blessings from Bastet. These rituals are simple but impactful, tying directly into the game’s narrative progression.
+
+- **Task/Quest System**:
+  - NPCs assign tasks that are directly tied to the narrative. These tasks range from simple actions, like protecting a sacred space, to more complex puzzles that require critical thinking and understanding of Bastet’s teachings.
+
+- **Environmental Interactions**:
+  - The player interacts with objects and symbols in the environment to uncover more about the temple’s history and Bastet’s teachings. These interactions deepen the narrative experience, making the temple feel like a living, breathing place filled with mysteries to uncover.
+
+#### **7. Integration with TEAARTTAROT**
+- **Brand Alignment**:
+  - The game’s narrative reinforces the TEAARTTAROT brand by emphasizing sophisticated and mystical storytelling, aligning with your luxury, minimal, and modern aesthetic. The focus on Bastet’s teachings of protection, balance, and motherhood reflects the calm and wise voice of your brand.
+
+- **Player Experience**:
+  - The narrative is designed to make players feel like they are participating in an extension of the TEAARTTAROT experience, uncovering spiritual truths and deepening their connection to the wisdom of Bastet. This mirrors the insights they might gain from a tarot reading or mystical guidance session on your platform.
+
+- **Future Content**:
+  - The narrative document serves as a foundation for expanding the game’s content in the future. You can introduce new stories, rituals, and teachings that continue to deepen the player’s connection to Bastet and the world of TEAARTTAROT.
+
+#### **8. Scope Considerations for One-Week Development**
+- **Narrative Simplicity**:
+  - The narrative is designed to be concise and impactful, focusing on key moments that can be achieved within a short development cycle. The prologue, three acts, and epilogue structure ensure that the story is both manageable and compelling.
+
+- **Focused Content**:
+  - Key characters, such as the Temple Priestess and Guardian Spirit, are introduced early and reused throughout the game, minimizing the need for creating multiple unique NPCs. The environment is designed with a limited number of chambers, each rich with narrative potential.
+
+- **Simple Mechanics**:
+  - The daily ritual system is straightforward and can be implemented with minimal scripting, while still providing meaningful narrative progression. Puzzles and tasks are integrated into the environment to maximize storytelling without requiring complex programming.
+
+This narrative design document ensures that *Temple of Bastet: Guardian's Path* is both achievable within a one-week timeframe and aligned with the TEAARTTAROT brand. It delivers a rich, immersive experience that resonates with players, offering a meaningful journey into the teachings of Bastet.
+
+
+
+
+LDD:
+### **Level Design Document (LDD) for *Temple of Bastet: Guardian's Path***
+
+#### **1. Overview**
+- **Objective**: Design a compact and immersive temple environment that reflects the teachings of Bastet, incorporating exploration, daily rituals, tasks, and puzzles.
+- **Scope**: One primary temple environment with 3 key chambers, each focusing on a core aspect of Bastet’s teachings.
+
+---
+
+#### **2. Level Layout**
+- **Main Areas**:
+  1. **Entrance Hall**:
+     - **Function**: Introduces players to the temple’s atmosphere and the first NPC (Temple Priestess).
+     - **Design Elements**: Large statues of Bastet, ambient lighting, hieroglyphs on the walls, simple altar for initial ritual.
+  
+  2. **Garden of Nurturing**:
+     - **Function**: Focuses on motherhood and growth, with tasks related to nurturing life.
+     - **Design Elements**: Lush vegetation, a small water feature, symbols of fertility, interactive plants.
+     - **Key Interaction**: Water the sacred plants to reveal a hidden path.
+
+  3. **Chamber of Protection**:
+     - **Function**: Emphasizes protection and balance, requiring players to complete a puzzle.
+     - **Design Elements**: Symmetrical layout, puzzles involving placing objects to balance scales, guardian spirit NPC.
+     - **Key Interaction**: Solve a weight-balance puzzle to open the inner sanctum.
+
+  4. **Inner Sanctum**:
+     - **Function**: The climax of the level where the player encounters Bastet’s presence.
+     - **Design Elements**: Dark, mystical ambiance with glowing symbols, Bastet’s statue at the center, final altar.
+     - **Key Interaction**: Perform the final ritual to receive Bastet’s blessing.
+
+---
+
+#### **3. Core Mechanics in Level**
+- **Exploration**: Non-linear navigation through the temple, with hidden paths revealed by completing tasks.
+- **Rituals**: Simple daily rituals performed at altars to unlock new chambers or reveal NPCs.
+- **Tasks/Puzzles**: 
+  - **Garden**: Water sacred plants to progress.
+  - **Protection Chamber**: Solve the balance puzzle to open the sanctum.
+- **NPC Interaction**: NPCs guide the player, providing hints and assigning tasks.
+
+---
+
+#### **4. Visual Style**
+- **Aesthetic**: Luxury, minimal, and modern with mystical Egyptian elements.
+- **Lighting**: Soft, ambient lighting in the Entrance Hall, brighter natural light in the Garden, and a darker, moody tone in the Chamber of Protection and Inner Sanctum.
+
+---
+
+#### **5. Player Flow**
+1. **Start in Entrance Hall**: Meet the Temple Priestess, perform the initial ritual.
+2. **Proceed to Garden of Nurturing**: Complete the nurturing task to unlock the Chamber of Protection.
+3. **Enter Chamber of Protection**: Solve the puzzle to access the Inner Sanctum.
+4. **Reach Inner Sanctum**: Perform the final ritual, complete the narrative.
+
+---
+
+#### **6. MVP Scope**
+- Focus on Entrance Hall, Garden of Nurturing, and Chamber of Protection.
+- Include basic exploration, one daily ritual, and two key tasks/puzzles.
+- Limit NPCs to the Temple Priestess and Guardian Spirit.
+
+---
+
+This concise LDD provides a clear structure for developing the *Temple of Bastet: Guardian's Path* within a one-week timeframe, ensuring a focused and immersive player experience.
+
+
+
