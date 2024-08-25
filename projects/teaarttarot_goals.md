@@ -1,9 +1,9 @@
-# TeaArtTarot Goals and Achievements
+# TeaArtTarot 
 
 ## Vision
 To create immersive, transformative experiences that blend technology, spirituality, and art, fostering personal growth and community connection.
 
-## Accomplishments
+## Features for Projects
 
 1. **XR Tarot Deck**: Developed a highly successful extended reality tarot deck, revolutionizing traditional divination practices.
 
@@ -11,9 +11,9 @@ To create immersive, transformative experiences that blend technology, spiritual
 
 3. **AI/AR Oracle Installations**: Designed fulfilling AI-powered augmented reality statuettes and altars, now exhibited in museums worldwide.
 
-4. **Award-Winning Virtual World**: Created an acclaimed virtual environment, pushing the boundaries of digital interaction and exploration.
+4. **Virtual Worlds**: Create irtual environments, pushing the boundaries of digital interaction and exploration.
 
-5. **Gamified Spiritual Journey**: Implemented an interwoven system of rewards and quests, creating an engaging alternate reality game (ARG) experience.
+5. **Gamified Spiritual Journey**: Implement an interwoven system of rewards and quests, creating an engaging alternate reality game (ARG) experience.
 
 6. **Mystic Apparel Line**: Designed customizable robes that resonate with spiritual practitioners globally, combining comfort with symbolic significance.
 
@@ -25,7 +25,7 @@ To create immersive, transformative experiences that blend technology, spiritual
 
 ## Ongoing Initiatives
 
-1. **Lunar Cycle Virtual Productions**: Regular full moon-themed digital events and experiences.
+1. **Lunar + Solar Cycle Virtual Productions**: Regular digital events and experiences.
 
 2. **Interactive Themed Events**: Organize engaging, quest-filled gatherings with a focus on humor and personal growth.
 
