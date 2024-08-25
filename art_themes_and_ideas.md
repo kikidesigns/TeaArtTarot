@@ -100,7 +100,6 @@
 - Altars significance
 - Ancestry exploration
 - Dogs' role
-- NFTs
 - Gallery importance
 - Retreats benefits
 - Ecstatic dance
