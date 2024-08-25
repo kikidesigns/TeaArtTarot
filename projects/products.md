@@ -34,7 +34,7 @@ This document outlines digital products inspired by the Wellness Compilation, fo
 - Video series combining yoga with tarot wisdom
 - Each session focuses on a different tarot card and its associated poses
 
-## 9. BCS (Body, Career, Spirit) Balance Game
+## 9. BCS (Best Case Scenario) Balance Game
 - Interactive digital game to help balance different life aspects
 - Uses tarot cards as central game mechanic
 
